@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>FlutterBeam</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+.header-space
+{
+ background:#ff5050;
+ color:white;
+ font-size:18px;
+ padding:1% 1% 1% 1%; 
+}
+.header-space img
+{
+  border:none;
+  width:50px;
+  height:50px;
+  border-radius:50px;
+}
+.header-space h1
+{
+  margin-left:10%;
+  padding-top:1%;
+  font-family:bungee;
+  padding-top:2%;
+}
+.header-space input
+{
+  border-radius:40px 0px 0px 40px;
+  border:none;
+  padding-left:10%;
+  margin-top:4%;
+  color:black;
+}
+.header-space .col-lg-4 button
+{
+  border:none;
+  border-radius: 0px 40px 40px 0px; 
+  color:black;
+  background:white;
+  margin-left:-20px;
+}
+.header-space button
+{
+  color:white;
+  background:#ff5050;
+  
+}
+.header-space button:hover 
+{
+  color:white;
+  background:#e64852;
+}
+.header-space .col-lg-1 button
+{
+  width:100%;
+  height:100%;
+  margin-top:25%;
+}
+
+</style>
+</head>
+<body>
+<!-- Header Space-->
+<div class="header-space row">
+  <div class="container">
+  <div class="col-lg-7 row">
+<img src="https://thehalleyben.files.wordpress.com/2017/12/92cc8e4555305b71a4f025ca1e6e9070.png">
+    <h1> Flutterbeam</h1>
+  </div>
+  <div class="col-lg-4">
+    <input type="text"  placeholder="Search">
+    <button><i class="fa fa-search"></i></button>
+  </div>
+    <div class="col-lg-1">
+      <button class="btn"><i class="fa fa-bars fa-lg"></i></button>
+    </div>
+    </div>
+</div>
+  
+<!--Content Space-->
+<div class="content-space">
+  <canvas id="myChart" width="400" height="400"></canvas>
+  
+</div>
+</body>
+</html>
